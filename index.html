@@ -1,5 +1,5 @@
 <!DOCTYPE html>  
-<html lang="en">  
+<html lang="zh">  
 <head>  
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
@@ -12,18 +12,26 @@
             display: flex;  
             flex-direction: column;  
             align-items: center;  
-            /* 设置背景图片，可以是本地路径或在线URL */  
             background-image: url('ManyFish2.jpg');  
-            /* 设置背景图片不重复 */  
             background-repeat: no-repeat;    
-            /* 设置背景图片始终覆盖整个body */  
             background-size: cover;  
-            /* 设置背景图片的位置 */  
             background-position: center;  
-            /* 固定背景图片，不随页面滚动 */  
             background-attachment: fixed;  
         }  
-  
+
+ 	h1 {    
+  	   color: #333333;
+   	   font-family: 方正姚体;
+	   text-align: center;    
+  	   margin-top: 50px;    
+   	 } 
+   
+	p {    
+  	   color: #333333;
+   	   font-family: 方正姚体;
+	   text-align: center;      
+   	 }    
+   
         .page-title {  
             text-align: center;  
             font-size: 24px;  
@@ -51,15 +59,6 @@
 	    font-family: 方正姚体;
         }  
 
-	h1 {    
-  	   color: #333333;
-   	   font-family: 方正姚体;
-	   text-align: center;    
-  	   margin-top: 50px;    
-   	 }    
-  
-  
-        /* 为每个按钮指定不同的背景颜色 */  
         .button-1 { background-color: #8B0000; }  
         .button-2 { background-color: #FF8C00; }  
         .button-3 { background-color: #999900; }  
@@ -67,10 +66,7 @@
         .button-5 { background-color: #006464; }  
         .button-6 { background-color: #003399; }  
         .button-7 { background-color: #660099; }  
-        .button-8 { background-color: #FF69B4; }  
- 
-        /* 更多按钮的颜色可以继续添加 */  
-  
+        .button-8 { background-color: #FF69B4; }   
 
     </style>  
 </head>  
@@ -100,6 +96,11 @@
         <a href="https://www.16personalities.com/ch/" target="_blank" class="button button-1">17.MBTI人格测试</a>  
 
     </div>  
+
+	<p> 
+ 		<br>使用遇到问题or想了解更多？<br>
+		来看看<a href="info.html">设计手记</a>  吧 
+	</p>
 
 </body>  
 </html>
